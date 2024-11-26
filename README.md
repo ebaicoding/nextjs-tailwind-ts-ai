@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Here's the rewritten prompt:
 
-## Getting Started
+```markdown
+# Next.js SaaS Landing Page Application Development Prompt
 
-First, run the development server:
+## Project Objective
+Create a modern, responsive SaaS landing page application with a focus on performance, design, and user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Technical Requirements
+### Core Technology Stack
+- Framework: Next.js 15 (App Router)
+- Frontend Library: React 19 (Release Candidate)
+- Language: TypeScript
+- Styling: Tailwind CSS
+- Animation: Framer Motion
+- Icons: Hero Icons & React Icons
+- Styling Utility: Class Variance Authority
+
+## Project Structure
+```
+nextjs-saas-app/
+├── app/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Footer.tsx
+│   │   └── TestimonialsCarousel.tsx
+│   ├── pages/
+│   │   ├── features/
+│   │   ├── pricing/
+│   │   └── contact/
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   └── images/
+└── styles/
+    └── globals.css
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Design Requirements
+### Visual Design
+- Modern, clean aesthetic
+- Responsive layout
+- Typography:
+  - Headlines: Google Font Poppins
+  - Body: Google Font Inter
+- Dark overlay hero section
+- Image slider with smooth transitions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Component Specifications
+1. Hero Section
+   - Animated with auto-advancing slides
+   - Compelling visual storytelling
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Navigation
+   - Responsive design
+   - Mobile-friendly menu
+   - Clear, intuitive navigation
 
-## Learn More
+3. Features Section
+   - Grid layout
+   - Icon-based feature representation
 
-To learn more about Next.js, take a look at the following resources:
+4. Pricing Page
+   - Comparison tables
+   - Clear subscription plan details
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Contact Page
+   - Comprehensive contact form
+   - Company information display
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Styling Guidelines
+- Utility-first approach with Tailwind CSS
+- Custom color palette
+  - Primary color: Blue
+- Consistent:
+  - Spacing
+  - Typography
+  - Responsive breakpoints
+- Design elements:
+  - Dark overlays
+  - Subtle shadows
 
-## Deploy on Vercel
+## Performance Optimization
+- Next.js Image optimization
+- Client-side animations
+- Responsive image handling
+- Font optimization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Development Best Practices
+- TypeScript for robust type checking
+- ESLint configuration
+- Modular component architecture
+- CSS utility management with class-variance-authority
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Target Outcome
+Deliver a high-performance, visually appealing SaaS landing page that provides an excellent user experience across all devices.
+```
