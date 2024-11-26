@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: '/nextjs-tailwind-ts-ai/',
 }
 
 module.exports = nextConfig

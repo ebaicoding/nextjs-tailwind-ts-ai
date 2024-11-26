@@ -27,12 +27,16 @@ jobs:
       - name: Build
         run: pnpm run build
 
+      - name: Create .nojekyll file
+        run: touch out/.nojekyll
+
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: out
           token: ${{ secrets.GH_TOKEN }}
+          clean: true
 
       - name: Output GitHub Pages URL
         run: |
