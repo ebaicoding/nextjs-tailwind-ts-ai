@@ -12,27 +12,28 @@ const testimonials = [
     name: "John Smith",
     role: "CEO, TechCorp",
     content: "This SaaS solution transformed our business operations completely.",
-    image: "/images/testimonial_1.jpg"
+    image: "/nextjs-tailwind-ts-ai/images/testimonial_1.jpg"
   },
   {
     id: 2,
     name: "Sarah Johnson",
     role: "CTO, StartupX",
     content: "The best investment we've made for our company's growth.",
-    image: "/images/testimonial_2.jpg"
+    image: "/nextjs-tailwind-ts-ai/images/testimonial_2.jpg"
   },
   {
     id: 3,
     name: "Jane Johnson",
     role: "CTO, StartupX",
     content: "The best investment we've made for our company's growth.",
-    image: "/images/testimonial_3.jpg"
+    image: "/nextjs-tailwind-ts-ai/images/testimonial_3.jpg"
   }
 ];
 
 const TestimonialsCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -88,7 +89,11 @@ const TestimonialsCarousel = () => {
                       src={testimonials[currentIndex].image}
                       alt={testimonials[currentIndex].name}
                       fill
-                      className="object-cover"
+                      priority
+                      className={`object-cover transition-opacity duration-300 ${
+                        loading ? 'opacity-0' : 'opacity-100'
+                      }`}
+                      onLoadingComplete={() => setLoading(false)}
                     />
                   </div>
                   <p className="text-gray-200 mb-6 font-inter text-lg">

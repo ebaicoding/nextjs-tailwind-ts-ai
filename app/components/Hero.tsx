@@ -11,24 +11,24 @@ const slides = [
     title: "Transform Your Business",
     subtitle: "With Our Next-Gen SaaS Platform",
     description: "Empower your team with cutting-edge tools and analytics to drive growth and efficiency.",
-    image: "/images/hero_1.jpg",
+    image: "/nextjs-tailwind-ts-ai/images/hero_1.jpg", // Updated path
   },
   {
     id: 2,
     title: "Scale with Confidence",
     subtitle: "Enterprise Solutions for Growth",
     description: "Built for scale, designed for success. Take your business to the next level.",
-    image: "/images/hero_2.jpg",
+    image: "/nextjs-tailwind-ts-ai/images/hero_2.jpg", // Updated path
   },
   {
     id: 3,
     title: "Data-Driven Insights",
     subtitle: "Make Informed Decisions",
     description: "Turn data into actionable insights with our advanced analytics platform.",
-    image: "/images/hero_3.jpg",
+    image: "/nextjs-tailwind-ts-ai/images/hero_3.jpg", // Updated path
   },
 ];
-// dfdfd
+
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loading, setLoading] = useState(true);
