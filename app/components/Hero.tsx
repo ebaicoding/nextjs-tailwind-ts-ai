@@ -28,7 +28,7 @@ const slides = [
     image: "/images/hero_3.jpg",
   },
 ];
-
+// dfdfd
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [loading, setLoading] = useState(true);
