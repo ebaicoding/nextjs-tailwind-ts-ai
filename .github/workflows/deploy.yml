@@ -35,4 +35,5 @@ jobs:
           token: ${{ secrets.GH_TOKEN }}
 
       - name: Output GitHub Pages URL
-        run: echo "Your site is deployed at: https://ebaicoding.github.io/nextjs-tailwind-ts-ai/"
+        run: |
+          echo "Site deployed at https://ebaicoding.github.io/nextjs-tailwind-ts-ai/"
