@@ -61,6 +61,7 @@ const Hero = () => {
                 alt={slide.title}
                 fill
                 priority
+                unoptimized
                 className="object-cover"
                 onLoadingComplete={() => setLoading(false)}
               />

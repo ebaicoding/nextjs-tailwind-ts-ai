@@ -90,6 +90,7 @@ const TestimonialsCarousel = () => {
                       alt={testimonials[currentIndex].name}
                       fill
                       priority
+                      unoptimized // Add this prop
                       className={`object-cover transition-opacity duration-300 ${
                         loading ? 'opacity-0' : 'opacity-100'
                       }`}
