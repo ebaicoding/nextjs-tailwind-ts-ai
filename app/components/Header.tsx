@@ -15,18 +15,6 @@ const navItems = [
   { label: 'Contact', href: '/contact' }
 ];
 
-const navLink = cva("px-3 py-2 rounded-md text-sm font-medium", {
-  variants: {
-    variant: {
-      default: "text-gray-300 hover:bg-gray-700 hover:text-white",
-      active: "bg-gray-900 text-white",
-    },
-  },
-  defaultVariants: {
-    variant: "default",
-  },
-});
-
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isOpen, setIsOpen] = useState(false);

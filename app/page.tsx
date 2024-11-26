@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Hero from './components/Hero';
 import TestimonialsCarousel from './components/TestimonialsCarousel';
 

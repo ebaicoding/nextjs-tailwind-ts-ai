@@ -92,7 +92,7 @@ const TestimonialsCarousel = () => {
                     />
                   </div>
                   <p className="text-gray-200 mb-6 font-inter text-lg">
-                    "{testimonials[currentIndex].content}"
+                    &quot;{testimonials[currentIndex].content}&quot;
                   </p>
                   <h4 className="font-semibold text-white mb-1 font-poppins">
                     {testimonials[currentIndex].name}
