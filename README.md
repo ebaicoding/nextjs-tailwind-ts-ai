@@ -1,5 +1,5 @@
 ```
-# Next.js SaaS Landing Page Application Development Prompt
+# Next.js SaaS Landing Page Application
 
 ## Project Objective
 Create a modern, responsive SaaS landing page application with a focus on performance, design, and user experience.
