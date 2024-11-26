@@ -1,6 +1,4 @@
-Here's the rewritten prompt:
-
-```markdown
+```
 # Next.js SaaS Landing Page Application Development Prompt
 
 ## Project Objective
@@ -17,7 +15,7 @@ Create a modern, responsive SaaS landing page application with a focus on perfor
 - Styling Utility: Class Variance Authority
 
 ## Project Structure
-```
+
 nextjs-saas-app/
 ├── app/
 │   ├── components/
@@ -35,7 +33,7 @@ nextjs-saas-app/
 │   └── images/
 └── styles/
     └── globals.css
-```
+
 
 ## Design Requirements
 ### Visual Design
